@@ -21,7 +21,7 @@ vagrant up
 # Bootstrap with flux
 ```
 flux bootstrap git \
-     --url=ssh://git@gitlab.com/amulraj/codenotary \
+     --url=ssh://git@github.com/amulrajd/codenotary \
      --path=flux/ \
      --branch=main \
      --private-key-file=<path_to_ssh-private-key_to_access_gitlab_repo>
